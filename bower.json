@@ -10,5 +10,8 @@
   "description": "webpage mockup",
   "main": "public/index.html",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "uikit": "~2.16.0"
+  }
 }
