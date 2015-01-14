@@ -1,0 +1,12 @@
+{
+  "name": "savings-multiplied-uikit",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dotunolusoga/savings-multiplied-uikit",
+  "authors": [
+    "Dotun Olusoga <adedotun.olusoga@gmail.com>"
+  ],
+  "description": "webpage mockup",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true
+}

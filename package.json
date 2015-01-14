@@ -1,0 +1,19 @@
+{
+  "name": "savings-multiplied-uikit",
+  "version": "1.0.0",
+  "description": "webpage mockup",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotunolusoga/savings-multiplied-uikit.git"
+  },
+  "author": "Adedotun Olusoga <adedotun.olusoga@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotunolusoga/savings-multiplied-uikit/issues"
+  },
+  "homepage": "https://github.com/dotunolusoga/savings-multiplied-uikit"
+}
