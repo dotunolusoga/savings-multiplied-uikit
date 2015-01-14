@@ -7,12 +7,30 @@ html(lang="en-US")
     title My Title
     link(rel="stylesheet" href="/vendor/uikit/css/uikit.min.css")
     link(rel="stylesheet" href="css/main.css")
+    script(src="jquery.js")
+    script(src="uikit.min.js")
 
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
-    .container
-      img(src="img/NSS-logo-primary.svg", alt="NSS Logo", title="Nashville Software School")
-      h1 Hello World
 
-    script(src="js/main.js")
+    .uk-grid
+      .uk-width-1-3.header
+    
+      .uk-width-1-3.header
+
+      .uk-width-1-3.header
+
+    .uk-grid-preserve
+     .uk-width-1-1.nav
+        ul 
+          li Buy
+          li Sell
+          li How it Works
+          li Links
+          li Community
+          li 
+            input(type="search")
+
+    .uk-grid-preserve
+      .uk-width-1-3.main
