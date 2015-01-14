@@ -10,7 +10,10 @@
     "type": "git",
     "url": "https://github.com/dotunolusoga/savings-multiplied-uikit.git"
   },
-  "author": "Adedotun Olusoga <adedotun.olusoga@gmail.com>",
+  "author"[
+    "Brandon Espinoza <espinozab100@gmail.com>" 
+    "Margaret Clinard <margaret.clinard@gmail.com>"
+    "Adedotun Olusoga <adedotun.olusoga@gmail.com>"]
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dotunolusoga/savings-multiplied-uikit/issues"

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "homepage": "https://github.com/dotunolusoga/savings-multiplied-uikit",
   "authors": [
-    "Dotun Olusoga <adedotun.olusoga@gmail.com>"
+    "Brandon Espinoza <espinozab100@gmail.com>" 
+    "Margaret Clinard <margaret.clinard@gmail.com>"
+    "Adedotun Olusoga <adedotun.olusoga@gmail.com>"
   ],
   "description": "webpage mockup",
   "main": "public/index.html",
