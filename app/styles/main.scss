@@ -10,6 +10,7 @@
 	}
 	img {
 		margin: 15px;
+		padding-bottom: 10px;
 	}
 }
 
@@ -48,10 +49,10 @@ li {
 	margin: 20px;
 }
 
-li.babies {
-	margin-bottom: 30px;
+.list__images li img {
 	padding-bottom: 10px;
 }
+
 
 .tree {
 	margin: 75px;
