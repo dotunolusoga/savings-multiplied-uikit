@@ -43,6 +43,7 @@ li {
 	list-style: none;
 	display: inline;
 	padding-right: 30px;
+
 }
 
 .list__images {
@@ -80,9 +81,10 @@ li {
 }
 
 .social__images {
-	width: 150px;
-	height: 150px;
+	width: 20%;
+	height: 20%;
 	border-bottom: 10px;
+	margin: 0 2.5%
 }
 
 .dot img {
@@ -97,6 +99,15 @@ li {
 	width: 100%;
 	height: 100px;
 	background-color: #6DCCD1;
+	li {
+		list-style: none;
+		border-right: 1px solid black;
+		display: inline;
+		padding: 0 30px;
+		&:last-child {
+			border-right: none;
+		}
+	}
 }
 
 .social
@@ -109,7 +120,6 @@ li {
 	border-radius: 0 0 20px 20px;
 	background-color: white;
 }
-
 .babyblue {
 	background-color: #6DCCD1;
 }
@@ -117,4 +127,16 @@ li {
 .whitebackground {
 	background-color: white;
 	border-radius: 0 0 20px 20px;
+}
+@media screen and (max-width: 768px) {
+	.social__images {
+		margin-left: 8.25%;
+		margin-right: 8.25%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.social__images {
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+	}
 }
