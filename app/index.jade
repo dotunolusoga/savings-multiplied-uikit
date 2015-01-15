@@ -14,26 +14,27 @@ html(lang="en-US")
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
     .container
-      .uk-grid-preserve
+      .uk-grid
         .uk-width-1-1.header
+          p Sign In | Sign Up
       
         .uk-width-1-1.header
           .uk-grid
             .uk-width-1-5
-            .uk-width-medium-3-5.content
-              .uk-grid
+            .uk-width-medium-3-5
+              .uk-grid.content
                 .uk-width-small-1-2
-                  h1 Savings Multiplied
+                  //img(src="/img/savings-multiplied-logo-WEB.png")//
+                  img(src="/img/brandon_logo.png")
                 .uk-width-small-1-2
-                  ul
+                  ul.nav__list
                     li About
                     li Contact
                     li Blog
                     li Press
-                  p where parents of multiples save, sell & share
             .uk-width-1-5
 
-      .uk-grid
+      .uk-grid-preserve
        .uk-width-1-1.nav
           ul 
             li Buy
@@ -41,17 +42,59 @@ html(lang="en-US")
             li How it Works
             li Links
             li Community
-            li 
-              input(type="search")
+            li
+              input(type="search" placeholder="Search...")
 
-      .uk-grid-preserve.main
-        .uk-width-medium-1-5.sidebar
-        .uk-width-medium-3-5.maincenter
+      .uk-grid
+        .uk-width-1-1
           .uk-grid
-           .uk-width-small-1-2
-              p We're making...
-           .uk-width-small-1-2  
-        .uk-width-medium-1-5.sidebar
+            .uk-width-1-5.bottombackground
+            .uk-width-3-5
+              .uk-grid
+                .uk-width-1-2
+                  p We're making one aspect of life easier for parents of multiples
+                  img(src="img/owl_bright_blue_32.png") 
+                  p buying and selling gently used sets of clothes!
+                  img(src="img/left_2_shop_now.png")
+                  img.tree(src="img/tree.png")
+
+                .uk-width-1-2
+                  ul.list__images
+                    li
+                      img(src="/img/twins.jpg")
+                    li
+                      img(src="/img/triplets.jpg")
+                    li
+                      img(src="/img/quads.jpg")
+              .uk-grid
+                .uk-width-1-1
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                  img(src="img/dotted_line_44x9.png")
+                .uk-width-1-1
+                  .uk-grid.social__images
+                    uk.width-1-4
+                      img(src="img/facebook_callout.png")
+                    uk.width-1-4
+                      img(src="img/twitter_callout.png")
+                    uk.width-1-4
+                      img(src="img/message_board_callout.png")
+                    uk.width-1-4
+                      img(src="img/special_offers_callout.png")
+            .uk-width-1-5.bottombackground
 
       .uk-grid-preserve
         .uk-width-medium-1-2.footer
