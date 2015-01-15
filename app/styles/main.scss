@@ -26,6 +26,7 @@
 .nav {
 	background-color: #F7CAD2;
 	width: 100%;
+	height: 20px;
 }
 
 .main {
@@ -45,6 +46,11 @@ li {
 
 .list__images {
 	margin: 20px;
+}
+
+li.babies {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 .tree {
