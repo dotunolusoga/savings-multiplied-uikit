@@ -76,13 +76,17 @@ li {
 
 .content {
 	background-color: white;
-	border-radius: 20% 20% 0 0;
+	border-radius: 2em 2em 0 0;
 }
 
 .social__images {
 	width: 150px;
 	height: 150px;
 	border-bottom: 10px;
+}
+
+.dot img {
+	background-repeat: repeat-x;
 }
 
 .bottombackground {
@@ -98,5 +102,19 @@ li {
 .social
 {
 	height:100px;
-	border-radius: 0 0 20% 20%;
+	// border-radius: 0 0 20% 20%;
+}
+
+.borderRadius{
+	border-radius: 0 0 20px 20px;
+	background-color: white;
+}
+
+.babyblue {
+	background-color: #6DCCD1;
+}
+
+.whitebackground {
+	background-color: white;
+	border-radius: 0 0 20px 20px;
 }
