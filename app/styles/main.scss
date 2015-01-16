@@ -3,6 +3,7 @@
 
 .header {
 	background-color: #D3F1F0;
+	color: #5AACB2;
 	width: 100%;
 	p {
 		padding-left: 70%;
@@ -18,16 +19,25 @@
 	margin-top: 125px;
 	li {
 		background-color: #6DCCD1;
-		border-radius: 20%;
-		padding: 5px;
-		margin: 10px;
-		}
+		border-radius: 1em;
+		padding: 15px;
+		margin: 2px;
+		color: white;
+	}
 }
 
 .nav {
 	background-color: #F7CAD2;
 	width: 100%;
-	height: 20px;
+	height: 40px;
+	ul {
+		padding-top:10px;
+	}
+	li {
+		font-family: Verdana, sans-serif;
+		font-weight: bold;
+		color: #6F1949;
+	}
 }
 
 .main {
@@ -66,6 +76,7 @@ li {
 		font-family: Verdana;
 		font-size: 20px;
 		padding-top: 10px;
+		color: #ADD9DC;
 	}
 }
 
@@ -99,9 +110,11 @@ li {
 	width: 100%;
 	height: 100px;
 	background-color: #6DCCD1;
+	color: white;
+	padding-top: 15px;
 	li {
 		list-style: none;
-		border-right: 1px solid black;
+		border-right: 1px solid white;
 		display: inline;
 		padding: 0 30px;
 		&:last-child {
